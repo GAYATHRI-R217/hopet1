@@ -1,4 +1,4 @@
-package day9;
+package day8;
 import java.util.Scanner;
 public class zigzagpattern {
     public static void main(String[] args){
