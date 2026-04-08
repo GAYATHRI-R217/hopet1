@@ -1,0 +1,10 @@
+//HashSet:
+//doesn't allow duplicate values
+//Hashing for fast access
+
+
+//Linked HashSet:
+//doesn't allow duplicate values
+//Hashing for fast access
+//Doubly linked list to maintain insertion order
+
