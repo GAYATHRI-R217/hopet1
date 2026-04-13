@@ -3,7 +3,10 @@ package day16;
 //hasNext() and next() method of Iterator interface
 //hasNext() method returns true if there are more elements to iterate over, otherwise it returns false
 //next() method returns the next element in the iteration and advances the cursor position by one
-
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.ListIterator;
 public class Traversal {
      public static void main(String[] args){
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
