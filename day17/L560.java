@@ -1,0 +1,18 @@
+package day17;
+import java.util.*;
+public class L560 {
+    public int subarraySum(int[] nums, int k) {
+        HashMap<Integer, Integer> m = new HashMap<>();
+        m.put(0, 1);
+        int sum = 0;
+        int c = 0;
+        for (int n : nums) {
+            sum += n;
+            if (m.containsKey(sum - k)) {
+                c += m.get(sum - k);
+            }
+            m.put(sum, m.getOrDefault(sum, 0) + 1);
+        }
+        return c;
+    }
+} 
